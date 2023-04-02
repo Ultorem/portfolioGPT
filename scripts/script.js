@@ -17,3 +17,13 @@ function createFirework() {
 }
 
 setInterval(createFirework, 300);
+
+  function rotateCube(event) {
+      const cube = document.getElementById("cube");
+      const container = document.querySelector(".container");
+
+      const x = (event.clientX / container.offsetWidth) * 360;
+      const y = (event.clientY / container.offsetHeight) * 360;
+
+      cube.style.transform = `rotateX(${y}deg) rotateY(${x}deg)`;
+    }
