@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/sudoku.css">
+</head>
+
+<body>
+    <!-- Sudoku Board -->
+    <div class="sudoku">
+        <!-- Sudoku rows -->
+        <div class="sudoku__row">
+            <input type="text" maxlength="1" class="sudoku__cell" />
+            <!-- Repeat 8 times -->
+            <input type="text" maxlength="1" class="sudoku__cell" />
+        </div>
+        <!-- Repeat 8 times -->
+        <div class="sudoku__row">
+            <!-- Repeat 9 times -->
+            <input type="text" maxlength="1" class="sudoku__cell" />
+        </div>
+        <!-- Repeat 7 times -->
+        <!-- Sudoku rows -->
+    </div>
+
+    <!-- Buttons to switch between difficulties -->
+    <div class="difficulties">
+        <button class="difficulties__button" id="easy">Easy</button>
+        <button class="difficulties__button" id="medium">Medium</button>
+        <button class="difficulties__button" id="hard">Hard</button>
+    </div>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

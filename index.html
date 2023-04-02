@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>My Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Insert your text here</p>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li><h3><a href="/snake">Project 1</a></h3>
-            <p>Description of Project 1</p>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>Description of Project 2</p>
-          </li>
-          <li>
-            <h3>Project 3</h3>
-            <p>Description of Project 3</p>
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name"><br>
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message"></textarea><br>
-          <input type="submit" value="Send">
-        </form>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div id="fireworks">
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Insert your text here</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3><a href="portfolioGPT/snake">Project 1</a></h3>
+          <p>Description of Project 1</p>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+        </li>
+        <li>
+          <h3>Project 3</h3>
+          <p>Description of Project 3</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+ </div>
+  <script src="scripts/script.js"></script>
+</body>
+
 </html>
-
-
-

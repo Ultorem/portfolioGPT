@@ -1,0 +1,60 @@
+/* Sudoku Board */
+.sudoku {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sudoku__row {
+  display: flex;
+}
+
+.sudoku__cell {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.2rem;
+  text-align: center;
+  border: 1px solid black;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sudoku__cell::-webkit-inner-spin-button,
+.sudoku__cell::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Difficulties */
+.difficulties {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.difficulties__button {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196F3;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.difficulties__button:hover {
+  transform: scale(1.1);
+  background-color: #0D47A1;
+}
+
+.difficulties__button:focus {
+  outline: none;
+}
+

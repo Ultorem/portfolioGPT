@@ -68,3 +68,33 @@ form input[type="submit"] {
   font-size: 16px;
   padding: 10px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#fireworks {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  animation-name: explode;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes explode {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
